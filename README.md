@@ -88,7 +88,7 @@ So we'll create another view `greeting` in `blog/views.py`. Add the following li
 	def greeting(request, name):
         return HttpResponse("<h1>Hey %s</h1>" % name)
         
-**Note - ** We are taking additional parameter called `name` in our view. This view shall return **Hey <Name>**
+**Note-** We are taking additional parameter called `name` in our view. This view shall return *Hey <Name>*
 
 Now, we move onto our `urls.py', to serve the greeting view in our project. You can do this by adding the line, just below the previous route for home view.
 
